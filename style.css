@@ -124,3 +124,38 @@ a {
   border-radius: 10px;
   height: 16vw;
 }
+
+#logos {
+  position: absolute;
+  left: 21.5vw;
+  top: 2.01vw;
+  width: 17vw;
+  height: 500px;
+}
+
+#logos img {
+   width: 390px;
+}
+
+#logos button {
+  position: relative;
+
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  left: 8.5vw;
+}
+
+.mySlides {
+  display: none;
+}
+
+#start {
+  display: block;
+}
