@@ -39,6 +39,7 @@
 
     background-color: rgb(240, 240, 240);
     transition: 1s ease;
+    outline: none;
 }
 
 #navbar #navlist li button:hover {
