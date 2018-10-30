@@ -11,6 +11,8 @@ function setActiveH(button) {
     else if (document.getElementById("main").classList.contains("contact") )
       document.getElementById("main").classList.toggle("contact");
 
+    console.log("Switch to Home")
+
 }
 
 function setActiveP(button) {
@@ -26,6 +28,7 @@ function setActiveP(button) {
     else if (document.getElementById("main").classList.contains("contact") )
       document.getElementById("main").classList.toggle("contact");
 
+    console.log("Switch to Portfolio")
 }
 
 function setActiveC(button) {
@@ -41,6 +44,7 @@ function setActiveC(button) {
     else if (document.getElementById("main").classList.contains("home") )
       document.getElementById("main").classList.toggle("home");
 
+    console.log("Switch to Contact")
 }
 
 var slideIndex = 1;
